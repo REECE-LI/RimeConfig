@@ -1,0 +1,11 @@
+patch:
+  "style/candidate_list_layout": linear
+  "style/inline_preedit": true
+  "style/inline_candidate": false
+  "style/show_paging": true
+  "style/layout/hilite_spacing": 3  # 奶奶的 冒号后面必须要有空格 不然整个文件全都会G
+  "style/layout/hilite_padding": 4
+  "style/layout/round_corner": 7
+  "style/font_face": 'Source Han Sans SC'
+  "style/label_font_face": 'Source Han Sans SC'
+  "style/comment_font_face": 'Source Han Sans SC'
