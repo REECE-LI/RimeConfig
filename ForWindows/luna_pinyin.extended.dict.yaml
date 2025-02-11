@@ -1,0 +1,38 @@
+# Rime dictionary
+# encoding: utf-8
+# Luna Pinyin Extended Dictionary(Basic)  - 明月拼音扩充词库（基本）
+
+---
+name: luna_pinyin.extended      # 词库名
+version: "2021.02.07"
+sort: by_weight                 # by_weight（按词频高低排序）或 original（保持原码表中的顺序）
+use_preset_vocabulary: true     # true 或 false，选择是否导入预设词汇表【八股文】
+
+import_tables:
+  - xiaojun
+  - luna_pinyin
+  - dicts/luna_pinyin.anime
+  - dicts/luna_pinyin.basis
+  # - dicts/luna_pinyin.biaoqing  # dk how to type
+  - dicts/luna_pinyin.chat
+  - dicts/luna_pinyin.classical
+  - dicts/luna_pinyin.cn_en
+  - dicts/luna_pinyin.computer
+  - dicts/luna_pinyin.daily
+  - dicts/luna_pinyin.diet
+  - dicts/luna_pinyin.game
+  - dicts/luna_pinyin.gd
+  - dicts/luna_pinyin.hanyu
+  - dicts/luna_pinyin.history
+  - dicts/luna_pinyin.idiom
+  - dicts/luna_pinyin.moba
+  - dicts/luna_pinyin.movie
+  - dicts/luna_pinyin.music
+  - dicts/luna_pinyin.name
+  - dicts/luna_pinyin.net
+  - dicts/luna_pinyin.poetry
+  - dicts/luna_pinyin.practical
+  - dicts/luna_pinyin.website
+  - dicts/luna_pinyin.sogou
+  
+

@@ -1,11 +1,35 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Tue Feb 11 10:28:20 2025"
+  rime_version: 1.11.2
 patch:
   "style/candidate_list_layout": linear
-  "style/inline_preedit": true
+  "style/comment_font_face": "Source Han Mono"
+  "style/font_face": "Source Han Mono"
   "style/inline_candidate": false
+  "style/inline_preedit": true
+  "style/label_font_face": "Source Han Mono"
+  "style/layout/hilite_padding": 3
+  "style/layout/hilite_spacing": 2
+  "style/layout/round_corner": 4
   "style/show_paging": true
-  "style/layout/hilite_spacing": 3  # 奶奶的 冒号后面必须要有空格 不然整个文件全都会G
-  "style/layout/hilite_padding": 4
-  "style/layout/round_corner": 7
-  "style/font_face": 'Source Han Sans SC'
-  "style/label_font_face": 'Source Han Sans SC'
-  "style/comment_font_face": 'Source Han Sans SC'
+  "style/font_point": 12 # 设置字体大小为 12 磅
+  "style/label_font_point": 10 # 候选序号的大小
+  preset_color_schemes:
+    lost_temple:
+      name: "孤寺|寂寥／Lost Temple" # 根据孤寺寂寥的意境设计的配色方案
+      author: "原作者:佛振 <chen.sst@gmail.com>, based on ir_black; 修改:XiaoJun"
+      text_color: 0xe8f3f6
+      hilited_text_color: 0x82e6ca
+      hilited_back_color: 0x222222
+      hilited_candidate_text_color: 0x000000
+      hilited_candidate_back_color: 0x82e6ca
+      back_color: 0x444444
+      border_color: 0x444444
+  "style/color_scheme": lost_temple
+  "app_options":          # 当前设置了没有什么屁用
+    ascii_mode: true      # 设置默认输入模式为英文
+    Code.exe: {ascii_mode: true} # 设置 VSCode 的默认输入模式为英文
+    powershell.exe: {ascii_mode: true} # 设置 PowerShell 的默认输入模式为英文
