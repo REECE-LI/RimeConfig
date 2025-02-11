@@ -43,4 +43,5 @@ patch:
 最重要的文件就是这个，图方便的话可以直接把这个作为`default.custom.ymal`​文件，当然小狼毫本身有更加详细的层级关系，这里先放一下我的windows的设置，等我在用到MAC的时候再来补充mac上面的设置。
 
 ## Windows
+参考了的配置`https://github.com/Iorest/rime-dict`
 更换了字体使用等宽字体`Source Han MonO`
